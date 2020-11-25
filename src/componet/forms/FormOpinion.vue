@@ -5,7 +5,7 @@
         <IconoCheck class="mr1" :isActive="errorsResume" v-if="startTyping"/>{{ resume.length }} / 90 (min.20)</p>
     <textarea v-model="resumeContent" name="" id="" cols="30" rows="10" class="formItems mtb2"></textarea>
     <p class="validation mtb1" :class="{errorActive: errorsResumeContent}">
-        <IconoCheck class="mr1" :isActive="errorsResumeContent" v-if="startTyping"/>{{ resumeContent.length }} / 90 (min.20)</p>
+        <IconoCheck class="mr1" :isActive="errorsResumeContent" v-if="startTyping"/>{{ resumeContent.length }} / 18000 (min.300)</p>
         <BtnPrincipal class="btn">Contactar al doctor</BtnPrincipal>
  </form>
 </template>

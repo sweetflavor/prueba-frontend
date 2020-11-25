@@ -29,10 +29,6 @@ export default {
                 return{}
             }
         }
-    },
-    created () {
-        console.log(this.postData);
-        console.log(this.isLoading);
     }
 }
 </script>
