@@ -1,6 +1,6 @@
 <template>
-  <div class="subTitle" :class="{ smTitle: size === 'sm' }">
-      <h2><slot></slot></h2>
+  <div class="subTitle">
+      <h2 :class="`${size}Title`"><slot></slot></h2>
   </div>
 </template>
 
@@ -19,13 +19,15 @@ export default {
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
-        font-size: 12px;
-        line-height: 14px;
         color: #48545C;
         margin: 5px;
         margin-right: 20px;
     }
     .smTitle {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .mlTitle {
         font-size: 16px;
         line-height: 24px;
     }

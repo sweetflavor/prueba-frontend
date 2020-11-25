@@ -1,9 +1,63 @@
+@import './variables';
 .p2 {
     padding: 20px;
+}
+.p1 {
+    padding: 10px;
 }
 .ptb1 {
     padding: 10px 0px;
 }
 .m1 {
     margin: 10px;
+}
+.mr1 {
+    margin-right: 10px;
+}
+.mtb1 {
+    margin: 10px 0px;
+}
+.mtb2 {
+    margin: 20px 0px;
+}
+.w100 {
+    width: 100%;
+}
+.bg-white {
+    background-color: #fff;
+}
+.paragraph {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.116667px;
+    color: $secondery-grey;
+}
+.userName {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.23333333432674408px;
+    text-align: left;
+    color: $secondery-grey;
+}
+.subTitle {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: $helper-grey;
+}
+.formItems {
+    width: 100%;
+    color: #727D85;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 0 2px #E1E8EB;
+    border-radius: 3px;
 }

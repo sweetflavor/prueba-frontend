@@ -4,6 +4,7 @@
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
   min-height: 100vh;
+  padding-top: 100px;
   @media (min-width: $breakpoint-tablet) {
         background-color: #F7F7F7;
   }
@@ -15,12 +16,7 @@
       column-gap: 29px;
       row-gap: 20px;
       @media (min-width: $breakpoint-tablet) {
-        grid-template-columns: 3fr 1fr;
-      }
-
-      div {
-          background-color: #fff;
-          border-radius: 20px;
+        grid-template-columns: 3fr 2fr;
       }
   }
 }

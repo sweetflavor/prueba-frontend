@@ -1,7 +1,7 @@
 <template>
   <div class="subInfo ptb1">
       <IconoLikeBlue />
-      <SubTitle>Vale la pena</SubTitle>
+      <SubTitle :size="'sm'">Vale la pena</SubTitle>
       <IconoEuro />
       <SubTitlePrice>Precio aproximado: 8500€</SubTitlePrice>
   </div>
