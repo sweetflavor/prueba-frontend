@@ -1,10 +1,10 @@
 <template>
-  <div id="app">
-    <div class="container">
-      <div>
+  <div id="app" class="app">
+    <div class="app__container p2">
+      <div class="p2">
         <MainContent />
       </div>
-      <div>
+      <div class="p2">
         <h3 v-if="isLoading">Loading...</h3>
         <MoreExperience v-if="postData" :isLoading="isLoading" :postData="postData"/>
       </div>
@@ -29,15 +29,19 @@ export default {
       isLoading: true
     }
   },
-  mounted() {
-    getPosts()
-      .then(data => {
-        this.isLoading = false
-        this.postData = data
-      })
-  }
+  // mounted() {
+  //   getPosts()
+  //     .then(data => {
+  //       this.isLoading = false
+  //       this.postData = data
+  //     })
+  // }
 }
 </script>
 
 <style lang="scss">
+@import './scss/_variables';
+@import './scss/_base';
+@import './scss/_reset';
+@import './scss/_common';
 </style>
